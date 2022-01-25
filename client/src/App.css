@@ -1,0 +1,83 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(95, 160, 182);
+  border: 5px solid rgb(143, 131, 135);
+  border-radius: 15px;
+}
+
+input {
+  width: 400px;
+  height: 40px;
+  font-size: 25px;
+  padding-left: 10px;
+  margin: 5px;
+  font-weight: bold;
+  border-radius: 15px;
+}
+
+button {
+  width: 400px;
+  height: 40px;
+  margin-top: 25px;
+  border-radius: 15px;
+}
+button:hover {
+  cursor: pointer;
+}
+
+.urheilijat {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: auto;
+  background-color: rgb(95, 160, 182);
+  border: 5px solid rgb(143, 131, 135);
+  border-radius: 15px;
+}
+
+.urheilija {
+  background-color: lightblue;
+  border: 5px solid lavenderblush;
+  margin: 1px;
+  display: inline-block;
+  padding: 10px;
+  width: auto;
+  height: auto;
+  border-radius: 15px;
+}
+
+.urheilija h3 {
+  margin: 30px;
+  margin-left: 50px;
+  font-weight: bold;
+  border-radius: 15px;
+  font-family: "Courier New", Courier, monospace;
+  align-content: center;
+}
+
+.muokkaaInput {
+  width: auto;
+  height: 19px;
+  font-size: 25px;
+  margin: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  visibility: visible;
+  border-radius: 15px;
+}
+
+.muokkaaBtn {
+  width: 100px;
+  margin: 0px;
+}
